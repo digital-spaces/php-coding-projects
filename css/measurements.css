@@ -1,0 +1,115 @@
+/* Measurements and/or names */
+body {
+    background-color: #151E29;
+    color: white;
+    margin: auto;
+    width: 360px;
+}
+
+h1 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form {
+    margin: 15px;
+}
+
+label {
+    display: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance:none;
+    background-color: #151E29;
+    border: none;
+    color: #2980B8;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+option {
+    color: white;
+}
+
+input[name="fromValue"] {
+    margin-bottom: 10px;
+}
+
+input[type="text"], span {
+    background-color: #151E29;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+p {
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+input[type="submit"], a {
+    color: white;
+    background-color: #7E8C8D;
+    font-size: 14px;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: lowercase;
+    width: 150px;
+}
+
+a {
+    text-align: center;
+    float: left;
+    text-decoration: none;
+}
+
+a[href="length.php"] {
+    float: right;
+}
+
+input[type="submit"] {
+    border: none;
+    float: right;
+}
+
+footer {
+    color: #fff;
+    clear: both;
+    padding-top: 20px;
+    text-align: center;
+}
+
+small a {
+    color: lightblue;
+    background-color: inherit;
+    float: inherit;
+    font-size: inherit;
+    margin-top: inherit;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    text-transform: capitalize;
+    width: inherit;
+}
+
+/* Names */
+input[type="file"] {
+  float: right;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  width: 360px;
+}
